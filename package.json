@@ -1,0 +1,23 @@
+{
+  "name": "google-photos-downloader",
+  "version": "0.1.0",
+  "description": "Downloads photos from Google Photos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattd/google-photos-downloader.git"
+  },
+  "keywords": [
+    "google",
+    "photos"
+  ],
+  "author": "Matt Dawson",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/mattd/google-photos-downloader/issues"
+  },
+  "homepage": "https://github.com/mattd/google-photos-downloader#readme"
+}
