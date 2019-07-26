@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/mattd/google-photos-downloader/issues"
   },
-  "homepage": "https://github.com/mattd/google-photos-downloader#readme"
+  "homepage": "https://github.com/mattd/google-photos-downloader#readme",
+  "dependencies": {
+    "googleapis": "^41.0.1"
+  },
+  "devDependencies": {}
 }
