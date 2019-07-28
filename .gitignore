@@ -61,8 +61,8 @@ typings/
 .next
 
 # Application secrets
-credentials.js
-token.json
+secrets/credentials.js
+secrets/token.json
 
 # Personal artifacts
 .screenrc
