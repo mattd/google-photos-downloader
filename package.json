@@ -22,7 +22,8 @@
   "homepage": "https://github.com/mattd/google-photos-downloader#readme",
   "dependencies": {
     "googleapis": "^41.0.1",
-    "googlephotos": "^0.1.3"
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   },
   "devDependencies": {}
 }
