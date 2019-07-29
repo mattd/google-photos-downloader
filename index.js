@@ -1,5 +1,5 @@
 const authorize = require('./lib/authorize');
 const credentials = require('./secrets/credentials');
-const download = require('./lib/download');
+const downloadMedia = require('./lib/download-media');
 
-authorize(credentials, download);
+authorize(credentials, downloadMedia);
