@@ -68,5 +68,8 @@ secrets/credentials.js
 secrets/token.json
 config.js
 
+# Application artifacts
+sync-stop.txt
+
 # Personal artifacts
 .screenrc
