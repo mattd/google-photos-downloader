@@ -63,9 +63,10 @@ typings/
 # next.js build output
 .next
 
-# Application secrets
+# Application secrets and config
 secrets/credentials.js
 secrets/token.json
+config.js
 
 # Personal artifacts
 .screenrc

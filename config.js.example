@@ -1,0 +1,4 @@
+module.exports = {
+    MEDIA_ITEMS_ROOT: "/path/to/images",
+    MEDIA_ITEMS_URI: "https://photoslibrary.googleapis.com/v1/desired/uri"
+}
