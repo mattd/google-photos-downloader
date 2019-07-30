@@ -1,3 +1,6 @@
+# OS cruft
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -59,3 +62,14 @@ typings/
 
 # next.js build output
 .next
+
+# Application secrets and config
+secrets/credentials.js
+secrets/token.json
+config.js
+
+# Application artifacts
+sync-stop.txt
+
+# Personal artifacts
+.screenrc
