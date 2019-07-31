@@ -4,7 +4,9 @@
   "description": "Downloads photos from Google Photos.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm secrets/token.json",
+    "test": "ava",
+    "test:watch": "ava --watch"
   },
   "repository": {
     "type": "git",
@@ -29,5 +31,10 @@
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "ava": "^2.2.0"
+  },
+  "ava": {
+    "verbose": "true"
+  }
 }
