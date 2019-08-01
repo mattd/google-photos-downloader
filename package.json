@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rm secrets/token.json",
     "test": "ava",
-    "test:watch": "ava --watch"
+    "test:watch": "ava --watch",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
