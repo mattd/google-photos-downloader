@@ -42,10 +42,11 @@ and rename the file to credentials.js.
 
 ## Setup Downloader Config
 
-Then, open the [config.js.example file in this repo](https://github.com/mattd/google-photos-downloader/blob/master/config.js.example)
-and fill in the full path to the directory where you want to download your
-Photos library. You'll also need to fill in the main API endpoint you want to
-use for downloads - but 99.9% of the time, this will just be https://photoslibrary.googleapis.com/v1/mediaItems.
+Then, open the [config.js.example file in this repo](https://github.com/mattd/google-photos-downloader/blob/master/config.js.example),
+fill in the full path to the directory where you want to download your Photos
+library, and rename the file to config.js. You'll also need to fill in the main
+API endpoint you want to use for downloads - but 99.9% of the time, this will
+just be https://photoslibrary.googleapis.com/v1/mediaItems.
 
 ## Run The Download
 
