@@ -1,41 +1,49 @@
 {
-  "name": "google-photos-downloader",
-  "version": "1.1.0",
-  "description": "Downloads photos from Google Photos.",
-  "main": "index.js",
-  "scripts": {
-    "clean": "rm secrets/token.json",
-    "test": "ava",
-    "test:watch": "ava --watch",
-    "start": "node ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mattd/google-photos-downloader.git"
-  },
-  "keywords": [
-    "google",
-    "photos"
-  ],
-  "author": "Matt Dawson",
-  "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/mattd/google-photos-downloader/issues"
-  },
-  "homepage": "https://github.com/mattd/google-photos-downloader#readme",
-  "dependencies": {
-    "download": "^7.1.0",
-    "filecompare": "^1.0.4",
-    "googleapis": "^41.0.1",
-    "mkdirp": "^0.5.1",
-    "moment": "^2.24.0",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4"
-  },
-  "devDependencies": {
-    "ava": "^2.2.0"
-  },
-  "ava": {
-    "verbose": "true"
-  }
+    "name": "google-photos-downloader",
+    "version": "1.1.0",
+    "description": "Downloads photos from Google Photos.",
+    "main": "index.js",
+    "scripts": {
+        "clean": "rm secrets/token.json",
+        "test": "ava",
+        "test:watch": "ava --watch",
+        "start": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mattd/google-photos-downloader.git"
+    },
+    "keywords": [
+        "google",
+        "photos"
+    ],
+    "author": "Matt Dawson",
+    "license": "SEE LICENSE IN LICENSE",
+    "bugs": {
+        "url": "https://github.com/mattd/google-photos-downloader/issues"
+    },
+    "homepage": "https://github.com/mattd/google-photos-downloader#readme",
+    "dependencies": {
+        "download": "^7.1.0",
+        "filecompare": "^1.0.4",
+        "googleapis": "^41.0.1",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.24.0",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.4"
+    },
+    "devDependencies": {
+        "ava": "^2.2.0",
+        "husky": "^3.0.3",
+        "prettier": "1.18.2",
+        "pretty-quick": "^1.11.1"
+    },
+    "ava": {
+        "verbose": "true"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
+    }
 }
