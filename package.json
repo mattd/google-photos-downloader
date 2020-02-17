@@ -1,6 +1,6 @@
 {
     "name": "google-photos-downloader",
-    "version": "1.4.1",
+    "version": "1.5.0",
     "description": "Downloads photos from Google Photos.",
     "main": "index.js",
     "scripts": {
