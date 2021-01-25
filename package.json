@@ -1,6 +1,6 @@
 {
     "name": "google-photos-downloader",
-    "version": "1.5.2",
+    "version": "1.5.3",
     "description": "Downloads photos from Google Photos.",
     "main": "index.js",
     "scripts": {
@@ -26,19 +26,19 @@
     },
     "homepage": "https://github.com/mattd/google-photos-downloader#readme",
     "dependencies": {
-        "axios": "^0.19.2",
+        "axios": "^0.21.1",
         "download": "^7.1.0",
         "filecompare": "^1.0.4",
-        "googleapis": "^41.0.1",
+        "googleapis": "^67.0.0",
         "mkdirp": "^0.5.1",
         "moment": "^2.24.0"
     },
     "devDependencies": {
-        "ava": "^2.2.0",
+        "ava": "^3.15.0",
         "eslint": "^6.1.0",
         "eslint-config-prettier": "^6.0.0",
         "eslint-plugin-prettier": "^3.1.0",
-        "eslint-watch": "^6.0.0",
+        "eslint-watch": "^7.0.0",
         "husky": "^3.0.3",
         "prettier": "1.18.2",
         "pretty-quick": "^1.11.1"
