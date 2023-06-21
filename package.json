@@ -7,10 +7,11 @@
         "clean": "rm secrets/token.json",
         "lint": "node_modules/.bin/eslint lib secrets test index.js",
         "lint:watch": "node_modules/.bin/esw -w lib secrets test index.js",
+        "prepare": "husky install",
         "start": "node .",
         "test": "ava",
         "test:watch": "ava --watch"
-    },
+     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mattd/google-photos-downloader.git"
@@ -39,16 +40,11 @@
         "eslint-config-prettier": "^8.8.0",
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-watch": "^8.0.0",
-        "husky": "^8.0.3",
+        "husky": "^8.0.0",
         "prettier": "^2.8.8",
         "pretty-quick": "^3.1.3"
     },
     "ava": {
         "verbose": "true"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged"
-        }
     }
 }
