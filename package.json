@@ -11,7 +11,7 @@
         "start": "node .",
         "test": "ava",
         "test:watch": "ava --watch"
-     },
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mattd/google-photos-downloader.git"
